@@ -1,3 +1,4 @@
 1. Existen operadores aritméticos en sql para casi cualquier tipo de operación, como raices, factoriales y potencias.
-2. Se pueden crear columnas con valores calculados
+2. Se pueden crear columnas con valores calculados (calculamos porcentajes)
 3. AS significa que el nombre de la columna será el que se asigne
+4. Existe el percentile, el cual sirve para saber dónde está situado un valor en función de una muestra.
