@@ -1,0 +1,17 @@
+CLEANUP DATA
+
+Find duplicates GROUP BY - HAVING
+Find missing data WHERE NULL
+Constraints only for some columns 
+Update values from all instances that follow a rule
+
+Steps to fix the data:
+1. Create a backup table
+2. Create a new column and work in the new column
+
+Transactions:
+START TRANSACTION
+
+*QUERY*
+
+ROLLBACK
