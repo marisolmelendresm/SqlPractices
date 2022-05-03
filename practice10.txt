@@ -1,0 +1,13 @@
+1. Extensions
+Add capability to sql
+- Default:
+  - unaccent
+  - tablefunc
+  
+*CREATE EXTENSION tablefunc
+
+Challenge: Instead of using the office as a pivot use the flavor and the office as columns
+
+SELECT * from crosstab('SELECT flavor, office, count(*) FROM ice_cream_survey GROUP BY flavor, office ORDER BY flavor,
+  SELECT office FROM ice_cream_survey GROUP BY office ORDER BY office)
+AS (flavor text, Downtown bgint, Midtown bgint, Uptown bgint)
