@@ -1,0 +1,17 @@
+Mining data
+- Case formatting
+  * initcap
+  * upper
+  * lower
+  
+- Trim
+SELECT trim(' Hello ') ------> 'Hello'
+SELECT trim('s' FROM 'socks')
+
+- Replace
+SELECT replace('bat', 'b', 'c');
+
+Regular expressions:
+https://regex101.com/
+https://en.wikipedia.org/wiki/Regular_expression
+  
