@@ -1,0 +1,14 @@
+Date and time
+
+- Date
+- Time intervals
+- Timestamp (date, time and time zone).
+
+Extract components of a timestamp
+*date_part()
+
+SELECT date_part('year', '2022-12-01 18:37:12 EST'::timestamptz) AS year
+
+*extract()
+
+SELECT extract(year from '2022-12-01 18:37:12 EST'::timestamptz) AS year
